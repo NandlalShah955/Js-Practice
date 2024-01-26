@@ -66,3 +66,7 @@ anotherperson.city = "jaipur";
 anotherperson.profession = "Mern Stack developer";
 console.log(person, "person"); // {   "name": "khurana","age": 34,"city": "jaipur","profession": "Mern Stack developer"}
 console.log(anotherperson, "anotherperson"); // {   "name": "khurana","age": 34,"city": "jaipur","profession": "Mern Stack developer"}
+
+// Creating a random number
+const randomNum = Math.ceil(Math.random() * 100 + 1);
+console.log(randomNum, "randomNum");
