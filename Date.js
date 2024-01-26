@@ -17,3 +17,11 @@ let splice = myarr.splice(1, 3);
 // Splice change the original array and removes that part from array whatever you have spliced
 console.log("myarr", myarr); //[0,4,5]
 console.log("splice", splice); //[1,2,3]
+
+const avengers = ["ironman", "superman", "captionamoerica", "blackwitch"];
+const indiansuperheros = ["Bheem", "Shaktimaan", "Mr Jaat"];
+// avengers.push(indiansuperheros);
+console.log(avengers, "avengers");
+// let all_heroes = avengers.concat(indiansuperheros);//[   'ironman','superman','captionamoerica',  'blackwitch', 'Bheem', 'Shaktimaan', 'Mr Jaat' ] finalheros
+let finalheros = [...avengers, ...indiansuperheros]; //[   'ironman','superman','captionamoerica',  'blackwitch', 'Bheem', 'Shaktimaan', 'Mr Jaat' ] finalheros
+console.log(finalheros, "finalheros");
