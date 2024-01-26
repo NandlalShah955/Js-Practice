@@ -35,12 +35,34 @@ let str3 = str1 + str2;
 function hello() {
   let a = "My name is nandlal";
   return a;
-  console.log("a", a);
 }
 let finalval = hello();
 
 console.log("hello", finalval);
 console.log("hello", typeof hello);
-console.log("first");
+
 // All Primitive datatypes are pushed to Stack memory
 // All Non - Primitive datatypes are pushed to Heap memory
+// Primitive datatype goes into stack memory
+
+let myname = "Amit verma";
+
+var finale = myname;
+finale = "putty";
+console.log("finale", finale); //putty
+console.log("myname", myname); //Amit verma
+
+// Non - Primitive datatype goes into heap memory
+const person = {
+  name: "khurana",
+  age: 34,
+  city: "delhi",
+  profession: "Developer",
+};
+
+let anotherperson = person;
+
+anotherperson.city = "jaipur";
+anotherperson.profession = "Mern Stack developer";
+console.log(person, "person"); // {   "name": "khurana","age": 34,"city": "jaipur","profession": "Mern Stack developer"}
+console.log(anotherperson, "anotherperson"); // {   "name": "khurana","age": 34,"city": "jaipur","profession": "Mern Stack developer"}
