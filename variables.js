@@ -41,3 +41,4 @@ let finalval = hello();
 
 console.log("hello", finalval);
 console.log("hello", typeof hello);
+console.log("first");
