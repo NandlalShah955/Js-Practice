@@ -42,3 +42,5 @@ let finalval = hello();
 console.log("hello", finalval);
 console.log("hello", typeof hello);
 console.log("first");
+// All Primitive datatypes are pushed to Stack memory
+// All Non - Primitive datatypes are pushed to Heap memory
