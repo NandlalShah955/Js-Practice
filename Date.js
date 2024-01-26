@@ -70,3 +70,5 @@ function Calculatepriceagain(val1, val2, ...num) {
   return num; //[ 220, 333, 444 ]
 }
 console.log(Calculatepriceagain(100, 4040, 220, 333, 444));
+
+// https://youtu.be/2q--gA97caM?si=OSm6cPzSSsAtBgYM
