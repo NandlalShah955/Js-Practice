@@ -57,3 +57,16 @@ const finalobj = { ...obj1, ...obj2, ...obj4 };
 console.log("finalobj", finalobj); //finalobj { '1': 'a', '2': 'b', '3': 'a', '4': 'b', '5': 'a', '6': 'b' }
 const objfinal = Object.assign(obj1, obj2, obj4);
 console.log("objfinal", objfinal); //objfinal { '1': 'a', '2': 'b', '3': 'a', '4': 'b', '5': 'a', '6': 'b' }
+
+// Function with objects
+// Passing multiple numbers in params
+function calculatePrice(...num) {
+  return num; //[ 200, 500, 6000, 5000 ]
+}
+console.log(calculatePrice(200, 500, 6000, 5000));
+
+// Passing numbers only i want
+function Calculatepriceagain(val1, val2, ...num) {
+  return num; //[ 220, 333, 444 ]
+}
+console.log(Calculatepriceagain(100, 4040, 220, 333, 444));
