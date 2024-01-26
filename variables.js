@@ -1,4 +1,4 @@
-"use strict"; // treat all Js code as new Version
+// "use strict"; // treat all Js code as new Version
 // We can declare varaible without declaring them also
 let a;
 let b = null;
@@ -32,3 +32,12 @@ let str3 = str1 + str2;
 // console.log(1 + 2 + "2");
 
 // console.log( (3 + 4) * 5 % 3);
+function hello() {
+  let a = "My name is nandlal";
+  return a;
+  console.log("a", a);
+}
+let finalval = hello();
+
+console.log("hello", finalval);
+console.log("hello", typeof hello);
