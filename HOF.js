@@ -15,3 +15,6 @@ let allperson = LaxmiPG.map((el) => {
 });
 
 console.log("allperson", allperson);
+
+// Reduce method
+let arr = [2, 4, 6, 6, 76, 23];
